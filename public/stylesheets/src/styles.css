@@ -1,0 +1,42 @@
+body {
+    padding: 1rem;
+
+    font-family: 'Helvetica', 'Arial', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6,
+p, ul, ol, dl {
+    margin-bottom: 0;
+    margin-top: 1.5rem;
+}
+
+.content {
+    max-width: 42rem;
+}
+
+.hero-heading {
+    font-size: 1.75rem;
+}
+
+.paragraph {
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+a {
+    color: RoyalBlue;
+}
+
+@media all and (min-width: 50rem) {
+    body {
+        padding: 3rem;
+    }
+
+    .hero-heading {
+        font-size: 3.375rem;
+    }
+
+    .paragraph {
+        font-size: 1.25rem;
+    }
+}
