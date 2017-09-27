@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "start": "node ./bin/www",
-    "build-task:concat": "concat-cli -f public/stylesheets/src/reset.css public/stylesheets/src/styles.css -o public/stylesheets/dist/app.css",
+    "build-task:concat": "concat-cli -f public/stylesheets/src/styles.css -o public/stylesheets/dist/app.css",
     "build-task:autoprefixer": "postcss public/stylesheets/dist/app.css --config postcss.config.js --no-map -d public/stylesheets/dist",
     "sass:build": "npm-run-all -p build-task:*",
     "sass:watch": "chokidar 'public/stylesheets/src/*.css' -c 'npm run sass:build'",
